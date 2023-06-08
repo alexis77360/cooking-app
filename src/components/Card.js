@@ -19,7 +19,7 @@ const Card = ({meal}) => {
                     ))}
                 </ul>
 
-                <button onClick={() =>  window.open(meal.strYoutube, "_blank")}> Watch the video</button>
+                <button onClick={() =>  window.open(meal.strYoutube, "_blank")}>Watch the video</button>
     
         </div>
     );
